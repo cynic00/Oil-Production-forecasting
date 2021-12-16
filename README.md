@@ -1,8 +1,2 @@
-In the field of petroleum engineering, one of the primary responsibilities of a reservoir
-engineer is the ability to quantify the reservoir’s performance. This is performed using
-decline curve analysis (DCA), where the production rates are monitored against time, and
-predictions are made on oil or gas volumes, which can be produced by the reservoir.
-With the increased adoption of machine learning-based solutions in the oil and gas industry,
-there has been an effort to improve decline curve analysis to make more accurate forecasts.
-So in this project, apart from the conventional Arps equations used for decline curve analysis,
-time series-based forecasting using ARIMA and LSTM is also done.
+# Oil Production Forecasting
+Forecasting of crude oil and gas production is very important for maintaining the balance between supply and demand in hydrocarbon sector. But it is not easy for field personals to estimate the flow rate in future. But it is still possible to predict the flow rate expected at a given time in future. The developing technological advances had made estimations to be far more accurate. In this way, this study will contribute to the literature. In this study, production data from the Oil and Gas Division of the North Dakota Industrial Commission (NDIC) has been used. The analysis is focused on oil production, since it is the dominant flow from wells in North Dakota. The data is in the form of a time series with monthly production available for the analysis. In order to forecast the data in future time series, ARIMA (Auto Regressive Integrated Moving Average as Linear Model), LSTM (Long Short-Term Memory as Nonlinear Model) and HYBRID model (LSTM and ARIMA) had been used. Curve Fit method was also used for conventional Arps equations used for decline curve analysis. On basis of , MAPE (Mean Absolute Percentage Error) and MSE (Mean Squared Error) values obtained from each model, HYBRID model was the best of all these. Data from mid-2015 through 2018 was used for history matching and forecasting was done from 2019 onwards.
